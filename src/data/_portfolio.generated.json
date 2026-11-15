@@ -1,0 +1,299 @@
+[
+  {
+    "id": "stage",
+    "name": "Stage Design/Live Performance",
+    "group": "Work projects",
+    "gs": "Work",
+    "projects": [
+      {
+        "title": "The Nude Party Show",
+        "client": "Creative direction & stage design, with Irina Shnitman",
+        "loc": "Warsaw Music Venue, Brooklyn, NY",
+        "year": "Fall 2023",
+        "type": "Live show · Stage design",
+        "short": "An immersive show for the band's latest album, built around an hour of 3D-animated storytelling set inside their barn recording studio.",
+        "long": [
+          "The concept was an immersive, theatrically enhanced experience for the band's latest album. The set followed a timeline of over an hour of 3D-animated storytelling inside the Barn, each part matching a song.",
+          "The barn was a deliberate choice: it is the band's recording studio in Upstate New York.",
+          "Show direction and stage design: Irina Shnitman and Nicole Girdo. 3D animation: Derek Elliott. Live video FX: Carlos Johns-Davila. Live video feed: Bryan Janiczhek. Production: Irina Shnitman and Alec Castillo. Introduction video: Alec Castillo."
+        ],
+        "imgs": [
+          "/media/stage/the-nude-party-show/0.jpg",
+          "/media/stage/the-nude-party-show/1.jpg",
+          "/media/stage/the-nude-party-show/2.jpg",
+          "/media/stage/the-nude-party-show/3.jpg",
+          "/media/stage/the-nude-party-show/4.jpg",
+          "/media/stage/the-nude-party-show/5.jpg"
+        ],
+        "alt": "Band performing on a red-lit stage with projected animation",
+        "fit": "cover",
+        "video": "/media/stage/the-nude-party-show/video.mp4"
+      }
+    ]
+  },
+  {
+    "id": "exhibition",
+    "name": "Exhibition Design/Art Production",
+    "group": "Work projects",
+    "gs": "Work",
+    "projects": []
+  },
+  {
+    "id": "installation",
+    "name": "Installation",
+    "group": "Work projects",
+    "gs": "Work",
+    "projects": [
+      {
+        "title": "Project title",
+        "client": "Project subtitle",
+        "loc": "Location",
+        "year": "Year",
+        "type": "Type · Materials",
+        "short": "Add a short description: the idea, your role, the materials and the process.",
+        "long": [
+          "Add a longer description here: the idea, your role, the materials and the process."
+        ],
+        "imgs": [
+          "/media/installation/project-title/0.jpg"
+        ],
+        "alt": "Translucent fabric installation lit in a forest at night, with people standing beneath it",
+        "fit": "cover"
+      }
+    ]
+  },
+  {
+    "id": "designbuilt",
+    "name": "Design-Built/Collective Space",
+    "group": "Work projects",
+    "gs": "Work",
+    "projects": [
+      {
+        "title": "FUNdaMental Design Build Initiative",
+        "client": "TallerKEN Studio",
+        "loc": "Punta Islita, Costa Rica",
+        "year": "Summer 2023",
+        "type": "Public intervention · Built",
+        "short": "A performance playscape for a local art community, designed and built in two months by a team of ten students.",
+        "long": [
+          "FUNdaMental, a non-profit, brings young designers together each year to build public interventions for communal benefit. Guided by studio founder Gregory Melitonov, a team of ten architecture students worked in Punta Islita over two months, from schematic design and community engagement to administration and construction.",
+          "We conceived and built a performance playscape: a multipurpose space for gatherings, shows, talks and performances that supports the PI Art Festival, held every six months."
+        ],
+        "imgs": [
+          "/media/designbuilt/fundamental-design-build-initiative/0.jpg",
+          "/media/designbuilt/fundamental-design-build-initiative/1.jpg",
+          "/media/designbuilt/fundamental-design-build-initiative/2.jpg",
+          "/media/designbuilt/fundamental-design-build-initiative/3.jpg",
+          "/media/designbuilt/fundamental-design-build-initiative/4.jpg",
+          "/media/designbuilt/fundamental-design-build-initiative/5.jpg",
+          "/media/designbuilt/fundamental-design-build-initiative/6.jpg",
+          "/media/designbuilt/fundamental-design-build-initiative/7.jpg"
+        ],
+        "alt": "Brick amphitheater in a garden",
+        "fit": "cover"
+      }
+    ]
+  },
+  {
+    "id": "architecture",
+    "name": "Architecture",
+    "group": "Work projects",
+    "gs": "Work",
+    "projects": [
+      {
+        "title": "Hart Island Visitor Center",
+        "client": "BKSK Architects",
+        "loc": "Hart Island, New York",
+        "year": "Summer 2024",
+        "type": "Public building · Concept",
+        "short": "A small Welcome Center on the path between ferry dock and chapel. I developed its sustainable design solutions and helped shape the concept.",
+        "long": [
+          "Part of a 20-year plan by NYC Parks for Hart Island, the city's largest public cemetery: a small Welcome Center with public restrooms and a waiting area, and a reimagined chapel as a memorial space.",
+          "The center sits on the path between ferry dock and chapel, with stone and brick masonry that echoes the chapel and a waiting area facing the water.",
+          "My contribution: sustainable design solutions, shaping the architectural concept, and fitting the building into the island's historical and natural context. Presented to NYC Parks."
+        ],
+        "imgs": [
+          "/media/architecture/hart-island-visitor-center/0.jpg",
+          "/media/architecture/hart-island-visitor-center/1.jpg",
+          "/media/architecture/hart-island-visitor-center/2.jpg",
+          "/media/architecture/hart-island-visitor-center/3.jpg",
+          "/media/architecture/hart-island-visitor-center/4.jpg",
+          "/media/architecture/hart-island-visitor-center/5.jpg"
+        ],
+        "alt": "Welcome Center rendering in a landscape",
+        "fit": "cover"
+      },
+      {
+        "title": "Black Lava Fields Visitor Center",
+        "client": "Axis Mundi Design",
+        "loc": "Competition project",
+        "year": "2019-20",
+        "type": "Visitor center · 5,000 ft²",
+        "short": "A research-based concept that gives form to the events of the past, set in a volcanic landscape.",
+        "long": [
+          "A fully research-based conceptual project that aims to materialize the events of the past, developed from research into Hiroshima Day. Entry title: Obsidian Rupture."
+        ],
+        "imgs": [
+          "/media/architecture/black-lava-fields-visitor-center/0.jpg",
+          "/media/architecture/black-lava-fields-visitor-center/1.jpg",
+          "/media/architecture/black-lava-fields-visitor-center/2.jpg",
+          "/media/architecture/black-lava-fields-visitor-center/3.jpg"
+        ],
+        "alt": "Visitor center on black lava fields",
+        "fit": "contain"
+      },
+      {
+        "title": "Tushino",
+        "client": "KAMEN Architects & Steven Holl",
+        "loc": "Moscow, Russia",
+        "year": "2017",
+        "type": "Housing · Competition",
+        "short": "Towers on wide horizontal bases that form public gardens, recalling the site's past as a paratrooper airfield.",
+        "long": [
+          "Created with Steven Holl Architects, the project introduces “Parachute Hybrids”: rugged towers joined to expansive horizontal extensions at lower levels, forming vast public gardens that recall the site's past as a paratrooper airfield. Circular openings run through the buildings.",
+          "My participation: a 3D model of the environment, graphic design for drawings and presentations, and editing of sections, plans and elevations."
+        ],
+        "imgs": [
+          "/media/architecture/tushino/0.jpg",
+          "/media/architecture/tushino/1.jpg",
+          "/media/architecture/tushino/2.jpg"
+        ],
+        "alt": "Housing towers beside a public building",
+        "fit": "cover"
+      },
+      {
+        "title": "D1 Residential Complex",
+        "client": "KAMEN Architects",
+        "loc": "Moscow, Russia",
+        "year": "2018",
+        "type": "Residential · Built",
+        "short": "A dense “vertical city” of apartments, cafés, shops and daycare, with private courtyards and a roof terrace.",
+        "long": [
+          "The complex joins a compact urban layout with efficient transport access. Apartments, cafés, restaurants, a shopping center and daycare are concentrated into a “vertical city”, while private courtyards and a spacious roof terrace keep it comfortable to live in.",
+          "My participation: a 3D model of the environment, graphic design for drawings and presentations, modelling one tower facade, and a landscape diagram."
+        ],
+        "imgs": [
+          "/media/architecture/d1-residential-complex/0.jpg",
+          "/media/architecture/d1-residential-complex/1.jpg",
+          "/media/architecture/d1-residential-complex/2.jpg",
+          "/media/architecture/d1-residential-complex/3.jpg"
+        ],
+        "alt": "Black and white photo of the built residential complex",
+        "fit": "cover"
+      }
+    ]
+  },
+  {
+    "id": "a-public",
+    "name": "Public Architecture",
+    "group": "Academic & conceptual work",
+    "gs": "Academic & conceptual work",
+    "projects": [
+      {
+        "title": "Anti-Nuclear Protests Exhibition",
+        "client": "Academic project, CCNY SSA",
+        "loc": "Brooklyn Bridge Anchorages, NY",
+        "year": "Spring 2020",
+        "type": "Exhibition · 1,520 m²",
+        "short": "A research-based exhibition on the Hiroshima Day March. Three rooms in the Anchorage vaults stage key moments of the Manhattan Project and the Cold War through light structures.",
+        "long": [
+          "A conceptual project grounded in research, meant to bring historical events to life. The semester focused on the Hiroshima Day March and its preceding events, developed into three interconnected narratives.",
+          "Three distinct rooms represent pivotal moments in the timeline, echoing the Manhattan Project and the Cold War. The narratives are told by inserting light structures into the existing rooms of the Brooklyn Bridge Anchorage."
+        ],
+        "imgs": [
+          "/media/a-public/anti-nuclear-protests-exhibition/0.jpg",
+          "/media/a-public/anti-nuclear-protests-exhibition/1.jpg",
+          "/media/a-public/anti-nuclear-protests-exhibition/2.jpg",
+          "/media/a-public/anti-nuclear-protests-exhibition/3.jpg",
+          "/media/a-public/anti-nuclear-protests-exhibition/4.jpg",
+          "/media/a-public/anti-nuclear-protests-exhibition/5.jpg"
+        ],
+        "alt": "Section of three vault rooms with colored light",
+        "fit": "contain"
+      },
+      {
+        "title": "The Harlem Beacon",
+        "client": "Academic project, CCNY SSA",
+        "loc": "Harlem, New York",
+        "year": "Spring 2022",
+        "type": "Cultural center · Event hall",
+        "short": "A cultural center on a sloped triangular lot with a 15,000 sq ft performance hall and a glass ramp that doubles as billboard and exhibition space.",
+        "long": [
+          "A cultural center that meets the community's needs while engaging City College students, on a triangular parking lot at West 135th Street and Amsterdam Avenue with a 15 ft height variation.",
+          "Entrances on all sides ease circulation. An exterior ramp with a double-skin glass facade serves as billboard and exhibition space. The first two floors hold entertainment areas and the performance hall; the third has classrooms, meeting spaces and a terrace with a green roof."
+        ],
+        "imgs": [
+          "/media/a-public/the-harlem-beacon/0.jpg",
+          "/media/a-public/the-harlem-beacon/1.jpg",
+          "/media/a-public/the-harlem-beacon/2.jpg"
+        ],
+        "alt": "Night rendering of an event hall",
+        "fit": "cover"
+      },
+      {
+        "title": "The Baptistery",
+        "client": "Moscow Architectural Academy",
+        "loc": "Kotayk, Armenia",
+        "year": "Fall 2019",
+        "type": "Sacred space · 50 m²",
+        "short": "A spiral baptistery below the Geghard monastery. The sacred spring runs through the building, turning it into a filter for the human soul.",
+        "long": [
+          "An extension of the ancient Geghard monastery, which sits above a cave with a sacred spring. The Baptistery stands downhill, below the Azat River, with a solid sculptural presence.",
+          "Its spiral form represents the journey of life, with water, central to baptism, as the inspiration. The spring narrows at the base before passing through the building, and additional chambers sit between the walls of the font and the facade."
+        ],
+        "imgs": [
+          "/media/a-public/the-baptistery/0.jpg",
+          "/media/a-public/the-baptistery/1.jpg",
+          "/media/a-public/the-baptistery/2.jpg",
+          "/media/a-public/the-baptistery/3.jpg"
+        ],
+        "alt": "Spiral stone baptistery on a hillside",
+        "fit": "cover"
+      }
+    ]
+  },
+  {
+    "id": "a-housing",
+    "name": "Housing",
+    "group": "Academic & conceptual work",
+    "gs": "Academic & conceptual work",
+    "projects": []
+  },
+  {
+    "id": "a-urban",
+    "name": "Urban Space",
+    "group": "Academic & conceptual work",
+    "gs": "Academic & conceptual work",
+    "projects": [
+      {
+        "title": "Development of the Little Caribbean",
+        "client": "Academic project, CCNY SSA, with Ornella Bonnam and Evelyn Krutoy",
+        "loc": "Brooklyn, New York",
+        "year": "Spring 2024",
+        "type": "Public space · Urban design",
+        "short": "Cultural infrastructure for youth at Church and Bedford Avenues, linking the Flatbush African Burial Ground to the street through a community center and shared streets.",
+        "long": [
+          "The project reimagines public space at Church Avenue and Bedford Avenue and brings the historic Flatbush African Burial Ground into the urban fabric. Its aim is accessible cultural infrastructure for youth that encourages self-expression, collective identity and intergenerational connection.",
+          "Key elements: the GrowHouse community center with a demonstration kitchen, café, exhibition hall, art incubator and rooftop garden; street pavilions for commerce, art and education; terracotta forms across buildings; and a pavilion honoring the ancestors.",
+          "Studio: Just Urban Ecologies. Instructor: Ifeoma Ebo."
+        ],
+        "imgs": [
+          "/media/a-urban/development-of-the-little-caribbean/0.jpg",
+          "/media/a-urban/development-of-the-little-caribbean/1.jpg",
+          "/media/a-urban/development-of-the-little-caribbean/2.jpg",
+          "/media/a-urban/development-of-the-little-caribbean/3.jpg",
+          "/media/a-urban/development-of-the-little-caribbean/4.jpg"
+        ],
+        "alt": "Brick street with trees at sunset",
+        "fit": "cover"
+      }
+    ]
+  },
+  {
+    "id": "a-access",
+    "name": "Accessibility",
+    "group": "Academic & conceptual work",
+    "gs": "Academic & conceptual work",
+    "projects": []
+  }
+]

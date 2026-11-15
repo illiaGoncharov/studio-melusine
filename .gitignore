@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Vite / tooling cache
+.vite/
+.cache/
+
+# Environment (секреты и локальные переопределения)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test / coverage
+coverage/
+
+# Python (scripts/extract_portfolio.py)
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cursor (локальные артефакты IDE)
+.cursor/
+
+# Случайные временные папки при скаффолде
+_vite-tmp/
+
+# Optional local overrides from Vite template
+*.local
