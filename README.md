@@ -2,12 +2,19 @@
 
 Одностраничное портфолио на React 19 + Vite + TypeScript. Стили перенесены из прототипа `Studio Melusiné.html`.
 
+## Сайт
+
+**GitHub Pages:** https://illiaGoncharov.github.io/studio-melusine/
+
+Публикация: push в `main` → workflow `.github/workflows/deploy-pages.yml`.
+
 ## Команды
 
 ```bash
 npm install
 npm run dev
 npm run build
+GITHUB_PAGES=true npm run build   # сборка как на Pages
 ```
 
 После правки исходного HTML с данными:

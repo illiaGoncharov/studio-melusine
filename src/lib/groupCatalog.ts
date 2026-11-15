@@ -4,6 +4,15 @@ import type {
   CatalogGroup,
   CatalogProject,
 } from '../types/portfolio'
+import { assetUrl } from './assetUrl'
+
+function withPublicUrls(project: CatalogProject): CatalogProject {
+  return {
+    ...project,
+    imgs: project.imgs.map(assetUrl),
+    video: project.video ? assetUrl(project.video) : undefined,
+  }
+}
 
 type NumberedCategory = CatalogCategory & { projects: CatalogProject[] }
 
@@ -16,7 +25,7 @@ export function buildCatalog(source = categories): CatalogGroup[] {
     categoryIndex += 1
     const projects = category.projects.map((project) => {
       projectIndex += 1
-      return { ...project, index: projectIndex }
+      return withPublicUrls({ ...project, index: projectIndex })
     })
 
     const catalogCategory: NumberedCategory = {
