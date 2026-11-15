@@ -1,31 +1,86 @@
 # Studio Melusiné
 
-Одностраничное портфолио на React 19 + Vite + TypeScript. Стили перенесены из прототипа `Studio Melusiné.html`.
+Сайт-портфолио архитектора и spatial artist Nicole Girdo: три колонки (био, проекты, CV), модалки с проектами, тёмная тема по системным настройкам.
 
-## Сайт
+Исходный одностраничный прототип — [`Studio Melusiné.html`](./Studio%20Melusin%C3%A9.html). Визуал и поведение перенесены в React-приложение; менялись только структура кода и способ хранения медиа.
 
-**GitHub Pages:** https://illiaGoncharov.github.io/studio-melusine/
+## Живой сайт
 
-Публикация: push в `main` → workflow `.github/workflows/deploy-pages.yml`.
+**https://illiaGoncharov.github.io/studio-melusine/**
 
-## Команды
+Обновление: любой push в ветку `main` запускает [деплой на GitHub Pages](.github/workflows/deploy-pages.yml).
+
+## Стек
+
+- React 19, TypeScript, Vite
+- Tailwind CSS 4 (подключён; основные стили — из прототипа в `src/index.css`)
+- Шрифт Space Mono (`@fontsource/space-mono`)
+- Данные проектов — JSON + файлы в `public/media/`
+
+## Быстрый старт
 
 ```bash
+git clone https://github.com/illiaGoncharov/studio-melusine.git
+cd studio-melusine
 npm install
 npm run dev
-npm run build
-GITHUB_PAGES=true npm run build   # сборка как на Pages
 ```
 
-После правки исходного HTML с данными:
+Локальный адрес: http://localhost:5173/
+
+Проверка production-сборки:
 
 ```bash
-python3 scripts/extract_portfolio.py
+npm run build
+npm run preview
 ```
 
-Скрипт обновляет `src/data/_portfolio.generated.json` и файлы в `public/media/`.
+Сборка **как на GitHub Pages** (base `/studio-melusine/`):
 
-## Видео
+```bash
+GITHUB_PAGES=true npm run build
+```
 
-Для **The Nude Party Show** положите файл по пути  
-`public/media/stage/the-nude-party-show/video.mp4` — в прототипе ссылка была на отсутствующий `/_blob/…`.
+## Как править контент
+
+| Что менять | Где |
+|------------|-----|
+| Текст слева, ссылки Contact / Telegram | [`src/data/bio.ts`](src/data/bio.ts) |
+| CV справа | [`src/data/cv.ts`](src/data/cv.ts) |
+| Категории и проекты | [`src/data/_portfolio.generated.json`](src/data/_portfolio.generated.json) и `public/media/` |
+
+Структура проекта в портфолио задаётся полями `title`, `client`, `loc`, `year`, `type`, `short`, `long`, `imgs`, `alt`, опционально `video` и `fit` (`cover` \| `contain`). Типы — [`src/types/portfolio.ts`](src/types/portfolio.ts).
+
+### Если правили старый HTML
+
+Из корня репозитория (нужен Python 3):
+
+```bash
+npm run extract:portfolio
+# или: python3 scripts/extract_portfolio.py
+```
+
+Скрипт читает массив `D` из `Studio Melusiné.html`, вытаскивает JPEG в `public/media/…` и перезаписывает `src/data/_portfolio.generated.json`.
+
+### Видео The Nude Party Show
+
+В прототипе ссылка на видео была битой. Положите файл:
+
+`public/media/stage/the-nude-party-show/video.mp4`
+
+## Структура проекта
+
+```text
+src/
+  components/layout/   колонки, шапки, часы
+  features/            bio, cv, portfolio (карточки, модалка)
+  data/                тексты и каталог
+  hooks/               scroll spy, часы, блокировка скролла
+  lib/                 группировка категорий, URL медиа для Pages
+public/media/          изображения проектов
+scripts/               extract_portfolio.py
+```
+
+## Лицензия
+
+Контент и медиа — Studio Melusiné / Nicole Girdo. Код репозитория — по усмотрению владельца репозитория.
