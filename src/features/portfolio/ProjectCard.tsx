@@ -26,7 +26,11 @@ export function ProjectCard({
         aria-label={`Open ${project.title}`}
         onClick={(event) => openFrom(event.currentTarget)}
       >
-        <img src={project.imgs[0]} alt={project.alt} />
+        {project.imgs[0] ? (
+          <img src={project.imgs[0]} alt={project.alt} />
+        ) : (
+          <span className="empty">Images to be added</span>
+        )}
       </button>
       <div className="cap">
         <div>

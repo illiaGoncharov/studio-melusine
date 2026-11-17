@@ -90,7 +90,9 @@ export function ProjectModal({ context, onClose }: ProjectModalProps) {
         </div>
         <div className="mbody">
           <div className="mleft" id="mleft">
-            <img src={project.imgs[0]} alt={project.alt} />
+            {project.imgs[0] ? (
+              <img src={project.imgs[0]} alt={project.alt} />
+            ) : null}
             <p className="meta">
               {metaRows.map(([label, value]) => {
                 if (!value) return null
