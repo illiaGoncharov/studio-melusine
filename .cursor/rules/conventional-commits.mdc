@@ -1,0 +1,44 @@
+---
+description: Conventional Commits и формат PR для Studio Melusiné
+alwaysApply: true
+---
+
+# Git: ветки, коммиты, PR
+
+При любых git-коммитах и подготовке PR следуй [CONTRIBUTING.md](../../CONTRIBUTING.md).
+
+## Commit message
+
+Формат: `type(scope): subject`
+
+- Английский, imperative, ≤72 chars, без точки в конце.
+- Types: `feat` | `fix` | `content` | `assets` | `docs` | `style` | `refactor` | `chore` | `ci`
+- Scopes: `portfolio` | `bio` | `cv` | `ui` | `media` | `deps` | `ci`
+
+Примеры:
+- `feat(portfolio): add Suzdal Kremlin exhibition entry`
+- `assets(media): add exhibition preview images`
+- `content(cv): update Triumph Gallery dates`
+
+Не используй: `update`, `wip`, `fix stuff`, сообщения на русском в commit subject.
+
+## Ветки
+
+От `main`: `feat/…`, `fix/…`, `content/…`. Не пушить напрямую в `main` без явной просьбы.
+
+## Pull request
+
+- **Title:** короткое описание на английском (можно без `type(scope):`).
+- **Body:** секции `## Summary` и `## Test plan` с чекбоксами.
+- Перед PR: `npm run dev`; по возможности `npm run build`.
+
+## Контент-проект
+
+Портфолио: `src/data/_portfolio.generated.json` + `public/media/`. Не запускать `extract_portfolio.py` без необходимости — затрёт ручные правки в JSON.
+
+## Совместная работа
+
+- Upstream: `illiaGoncharov/studio-melusine`; один PR = одна задача.
+- Перед веткой: `git pull origin main`. После merge upstream: `git pull` на main.
+- Новый проект: см. «Как добавить проект» в CONTRIBUTING.md.
+- Maintainer мержит PR; не менять деплой/base без согласования.

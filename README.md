@@ -10,6 +10,8 @@
 
 Обновление: любой push в ветку `main` запускает [деплой на GitHub Pages](.github/workflows/deploy-pages.yml).
 
+**Контрибьюторам:** [CONTRIBUTING.md](./CONTRIBUTING.md) (Conventional Commits, PR). Для Claude/Cursor: [CLAUDE.md](./CLAUDE.md).
+
 ## Стек
 
 - React 19, TypeScript, Vite
