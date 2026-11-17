@@ -36,7 +36,22 @@
     "name": "Exhibition Design/Art Production",
     "group": "Work projects",
     "gs": "Work",
-    "projects": []
+    "projects": [
+      {
+        "title": "Suzdal Kremlin Museum Complex",
+        "client": "Triumph Gallery",
+        "loc": "Suzdal, Russia",
+        "year": "2026",
+        "type": "Permanent exhibition",
+        "short": "A permanent exhibition for the Suzdal Kremlin Historical Museum, developed alongside the museum's rebranding and building renovation.",
+        "long": [
+          "Permanent exhibition design for the Suzdal Kremlin Historical Museum, developed together with the museum's rebranding and the renovation project for its building. Project in progress.",
+          "My participation: the exhibition design project, visual style concepts, 3D models, and graphic and spatial solutions for displaying museum objects."
+        ],
+        "imgs": [],
+        "alt": "Suzdal Kremlin Museum Complex permanent exhibition"
+      }
+    ]
   },
   {
     "id": "installation",
